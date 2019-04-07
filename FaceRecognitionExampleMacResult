@@ -1,0 +1,112 @@
+Last login: Sun Apr  7 19:25:10 on ttys005
+Sunday:~ zhengshuang$ cd /Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/examples/FaceDetection 
+Sunday:FaceDetection zhengshuang$ dotnet build -c Release
+Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Restore completed in 48.4 ms for /Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/DlibDotNet/src/DlibDotNet/DlibDotNet.csproj.
+  Restore completed in 48.42 ms for /Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/examples/FaceDetection/FaceDetection.csproj.
+  Restore completed in 48.42 ms for /Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/src/FaceRecognitionDotNet/FaceRecognitionDotNet.csproj.
+  DlibDotNet -> /Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/DlibDotNet/src/DlibDotNet/bin/Release/netstandard2.0/DlibDotNet.dll
+  FaceRecognitionDotNet -> /Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/src/FaceRecognitionDotNet/bin/Release/netstandard2.0/FaceRecognitionDotNet.dll
+  FaceDetection -> /Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/examples/FaceDetection/bin/Release/netcoreapp2.0/FaceDetection.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.56
+Sunday:FaceDetection zhengshuang$ dotnet run -c Release -- "-d=/Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/examples/FaceDetection/bin/Release/netcoreapp2.0/Images"
+/Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/examples/FaceDetection/bin/Release/netcoreapp2.0/Images/three.jpeg,133,461,205,389
+/Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/examples/FaceDetection/bin/Release/netcoreapp2.0/Images/three.jpeg,133,125,205,53
+/Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/examples/FaceDetection/bin/Release/netcoreapp2.0/Images/three.jpeg,146,296,250,192
+/Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/examples/FaceDetection/bin/Release/netcoreapp2.0/Images/01.jpg,165,366,423,108
+/Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/examples/FaceDetection/bin/Release/netcoreapp2.0/Images/02.jpg,164,405,474,95
+/Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/examples/FaceDetection/bin/Release/netcoreapp2.0/Images/lena_gray.jpg,228,377,377,228
+/Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/examples/FaceDetection/bin/Release/netcoreapp2.0/Images/judybats.jpg,285,438,371,352
+/Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/examples/FaceDetection/bin/Release/netcoreapp2.0/Images/judybats.jpg,161,281,376,66
+/Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/examples/FaceDetection/bin/Release/netcoreapp2.0/Images/judybats.jpg,333,93,405,21
+/Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/examples/FaceDetection/bin/Release/netcoreapp2.0/Images/lena_color.jpg,117,181,189,109
+/Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/examples/FaceDetection/bin/Release/netcoreapp2.0/Images/2.jpg,161,305,376,90
+Sunday:FaceDetection zhengshuang$ cd /Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/examples/Benchmark 
+Sunday:Benchmark zhengshuang$ dotnet build -c Release
+Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Restoring packages for /Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/examples/Benchmark/Benchmark.csproj...
+  Restore completed in 51.04 ms for /Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/DlibDotNet/src/DlibDotNet/DlibDotNet.csproj.
+  Restore completed in 51.03 ms for /Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/src/FaceRecognitionDotNet/FaceRecognitionDotNet.csproj.
+  Generating MSBuild file /Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/examples/Benchmark/obj/Benchmark.csproj.nuget.g.props.
+  Restore completed in 259.25 ms for /Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/examples/Benchmark/Benchmark.csproj.
+  DlibDotNet -> /Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/DlibDotNet/src/DlibDotNet/bin/Release/netstandard2.0/DlibDotNet.dll
+  FaceRecognitionDotNet -> /Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/src/FaceRecognitionDotNet/bin/Release/netstandard2.0/FaceRecognitionDotNet.dll
+  Benchmark -> /Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/examples/Benchmark/bin/Release/netcoreapp2.0/Benchmark.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.39
+Sunday:Benchmark zhengshuang$ dotnet run -c Release -- "-m=Models"
+
+
+Usage: Benchmark [options]
+
+Options:
+  -h|--help   Show help information
+  -m|--model  model files directory path
+
+Sunday:Benchmark zhengshuang$ dotnet run -c Release -- "-m=/Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/examples/Benchmark/bin/Release/netcoreapp2.0/Models"
+libc++abi.dylib: terminating with uncaught exception of type dlib::serialization_error: An error occurred while trying to read the first object from the file /Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/examples/Benchmark/bin/Release/netcoreapp2.0/Models/shape_predictor_68_face_landmarks.dat.
+ERROR: Error deserializing object of type int
+
+Sunday:Benchmark zhengshuang$ dotnet run -c Release -- "-m=/Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/examples/Benchmark/bin/Release/netcoreapp2.0/Models"
+Benchmarks
+
+Timings at 240p:
+ - Face locations: 0.0668s (14.97 fps)
+ - Face landmarks: 0.0018s (555.56 fps)
+ - Encode face (inc. landmarks): 0.0226s (44.25 fps)
+ - End-to-end: 0.0906s (11.04 fps)
+
+Timings at 480p:
+ - Face locations: 0.2634s (3.80 fps)
+ - Face landmarks: 0.0018s (555.56 fps)
+ - Encode face (inc. landmarks): 0.0216s (46.30 fps)
+ - End-to-end: 0.2854s (3.50 fps)
+
+Timings at 720p:
+ - Face locations: 0.6106s (1.64 fps)
+ - Face landmarks: 0.0018s (555.56 fps)
+ - Encode face (inc. landmarks): 0.0214s (46.73 fps)
+ - End-to-end: 0.6328s (1.58 fps)
+
+Timings at 1080p:
+ - Face locations: 1.4024s (0.71 fps)
+ - Face landmarks: 0.0018s (555.56 fps)
+ - Encode face (inc. landmarks): 0.0222s (45.05 fps)
+ - End-to-end: 1.4276s (0.70 fps)
+
+Sunday:Benchmark zhengshuang$ cd
+Sunday:~ zhengshuang$ cd /Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/examples/FaceEncodingPerformance 
+Sunday:FaceEncodingPerformance zhengshuang$ dotnet build -c Release
+Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Restoring packages for /Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/examples/FaceEncodingPerformance/FaceEncodingPerformance.csproj...
+  Restore completed in 50.12 ms for /Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/src/FaceRecognitionDotNet/FaceRecognitionDotNet.csproj.
+  Restore completed in 50.12 ms for /Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/DlibDotNet/src/DlibDotNet/DlibDotNet.csproj.
+  Generating MSBuild file /Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/examples/FaceEncodingPerformance/obj/FaceEncodingPerformance.csproj.nuget.g.props.
+  Restore completed in 258.76 ms for /Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/examples/FaceEncodingPerformance/FaceEncodingPerformance.csproj.
+  DlibDotNet -> /Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/DlibDotNet/src/DlibDotNet/bin/Release/netstandard2.0/DlibDotNet.dll
+  FaceRecognitionDotNet -> /Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/src/FaceRecognitionDotNet/bin/Release/netstandard2.0/FaceRecognitionDotNet.dll
+  FaceEncodingPerformance -> /Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/examples/FaceEncodingPerformance/bin/Release/netcoreapp2.0/FaceEncodingPerformance.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.02
+Sunday:FaceEncodingPerformance zhengshuang$ dotnet run -c Release -- "-l=100" "-f=/Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/examples/FaceEncodingPerMac/Images/lena_color.jpg" "-m=/Users/zhengshuang/Documents/ProgramingGuide/ComputerVision/FaceRecognitionDotNet/FaceRecognitionDotNet/examples/FaceEncodingPerMac/Models"
+Total: 6859 [ms], Average: 68 [ms]
+Sunday:FaceEncodingPerformance zhengshuang$ 
